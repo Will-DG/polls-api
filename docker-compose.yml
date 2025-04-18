@@ -1,6 +1,6 @@
 web:
   build: .
-  command: 'gunicorn polls.wsgi --log-file -'
+  command: 'gunicorn polls.wsgi'
   working_dir: /usr/src/app
   environment:
     PORT: 8080
