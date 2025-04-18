@@ -4,7 +4,7 @@ web:
   working_dir: /usr/src/app
   environment:
     PORT: 8080
-    DATABASE_URL: 'postgres://postgres:@herokuPostgresql:5432/postgres'
+    DATABASE_URL: 'postgres://u2aqn4qqakad60:p4eb3c1c41d1367a7e65f1e09c7166e729ee351438bfba17e9681d2f12aa77117@c3nv2ev86aje4j.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com:5432/ddh807ver6121p'
   ports:
     - '8080:8080'
   links:
@@ -15,7 +15,7 @@ shell:
   working_dir: /app/user
   environment:
     PORT: 8080
-    DATABASE_URL: 'postgres://postgres:@herokuPostgresql:5432/postgres'
+    DATABASE_URL: 'postgres://u2aqn4qqakad60:p4eb3c1c41d1367a7e65f1e09c7166e729ee351438bfba17e9681d2f12aa77117@c3nv2ev86aje4j.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com:5432/ddh807ver6121p'
   ports:
     - '8080:8080'
   links:
