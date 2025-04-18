@@ -7,4 +7,4 @@ RUN pipenv install --system --deploy
 
 COPY . .
 
-CMD pipenv run gunicorn --bind :$PORT polls.wsgi --log-file -
+CMD pipenv run gunicorn --bind :$PORT polls.wsgi
